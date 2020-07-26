@@ -11,7 +11,7 @@ $(document).ready(function() {
     
 
 
-    if(window.location.href.indexOf("index47") > -1){       //CON ESTO CHEQUEO QUE ESTÉ EN LA PAGINA INDICE. CIERRA DESPUES DE LOS POST
+    if(window.location.href.indexOf("index") > -1){       //CON ESTO CHEQUEO QUE ESTÉ EN LA PAGINA INDICE. CIERRA DESPUES DE LOS POST
     $(function(){                       //SLIDER
         $('.slider').bxSlider({
           mode: 'fade',
@@ -121,13 +121,13 @@ if(window.location.href.indexOf("Contact") > -1){
 
     var theme =$("#theme")                  //cambio de theme
     $("#toGreen").click(function(){
-        theme.attr("href", "C:/Users/Seba Toso/Desktop/Cursos/Desarrollo web/udemy/Ejercicio 47 - Proyecto/css/stylesgreen.css")
+        theme.attr("href", "css/stylesgreen.css")
     });           
     $("#toRed").click(function(){
-        theme.attr("href", "C:/Users/Seba Toso/Desktop/Cursos/Desarrollo web/udemy/Ejercicio 47 - Proyecto/css/stylesred.css")
+        theme.attr("href", "css/stylesred.css")
     });
     $("#toOrange").click(function(){
-        theme.attr("href", "C:/Users/Seba Toso/Desktop/Cursos/Desarrollo web/udemy/Ejercicio 47 - Proyecto/css/stylesorange.css")
+        theme.attr("href", "css/stylesorange.css")
     });
 
 

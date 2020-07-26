@@ -96,7 +96,7 @@ nav a {                         /*ESTILO DE LOS A*/
     text-align: center;
     line-height: 10px;
     color: #333;
-    background: url("C:/Users/Seba Toso/Desktop/Cursos/Desarrollo web/udemy/Ejercicio 47 - Proyecto/material/lines.png") repeat-x;
+    background: url("../material/lines.png") repeat-x;
 }
 .marcosidebar {
     background: white;
