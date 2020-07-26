@@ -1,0 +1,28 @@
+body{
+    background: url("../material/hojas.jpg");
+    background-attachment: fixed;   /* ESTO ES PARA QUE NO SE MUEVA CON EL SCROLL*/
+}
+#logo{
+    background: #20b2aa;
+    color: white;
+}
+nav ul li:hover{                /*EFECTO DEL LI CUANDO PASO EL MOUSE POR ENCIMA*/
+    background: lightseagreen;
+}
+.buttonmore {
+    background: lightseagreen;
+    color: white;
+}
+#acordeon .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid rgb(35, 196, 188);
+    background: lightseagreen;
+}
+#clock {
+    border: 5px dotted lightseagreen;
+}
+#ui-datepicker-div .ui-widget-header {
+    border: 1px solid #ddd;
+    background: lightseagreen;
+    color: #333;
+    font-weight: bold;
+}

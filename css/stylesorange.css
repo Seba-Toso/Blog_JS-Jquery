@@ -1,0 +1,28 @@
+body{
+    background: url("../material/marron.jpg");
+    background-attachment: fixed;   /* ESTO ES PARA QUE NO SE MUEVA CON EL SCROLL*/
+}
+#logo{
+    background: #e0982b;
+    color: white;
+}
+nav ul li:hover{                /*EFECTO DEL LI CUANDO PASO EL MOUSE POR ENCIMA*/
+    background: rgb(224, 152, 43);
+}
+.buttonmore {
+    background: rgb(224, 152, 43);
+    color: white;
+}
+#acordeon .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid rgb(241, 163, 46);
+    background: rgb(224, 152, 43);
+}
+#clock {
+    border:5px dotted rgb(224, 152, 43);
+}
+#ui-datepicker-div .ui-widget-header {
+    border: 1px solid #ddd;
+    background:  rgb(224, 152, 43);
+    color: #333;
+    font-weight: bold;
+}

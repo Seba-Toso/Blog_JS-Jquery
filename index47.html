@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\css\styles.css">
+<link id="theme" rel="stylesheet" type="text/css" href="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\css\stylesgreen.css">
+
+<!--JQUERY & JQUERY UI-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="tet/javascript" src="Ejercicio 41 - Jquery\jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" href="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 46 - Jquery ui\jquery-ui-1.12.1\jquery-ui.min.css">  <!--CARGA ESTILOS JQUERY UI-->
+<link rel="stylesheet" href="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 46 - Jquery ui\jquery-ui-1.12.1\jquery-ui.structure.min.css">    <!--CARGA LAS ESTRUCTURAS CSS DE JQUERY UI-->
+<link rel="stylesheet" href="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 46 - Jquery ui\jquery-ui-1.12.1\jquery-ui.theme.min.css">    <!--CARGA LOS TEMAS CSS JQUERY UI-->
+<script type="text/javascript" src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 46 - Jquery ui\jquery-ui-1.12.1\jquery-ui.min.js"></script>
+<!--SLIDER-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!--esto es jquery cargado por otro lado (opcional)-->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<!--MOMENT JS-->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es-us.min.js"></script>    <!--traduccion al español-->
+
+
+
+
+<!--JSCRIPT-->
+<script type="text/javascript" src="C:\Users\Seba Toso\Desktop\Desarrollo\Blog Jquery\js\index.js"></script>
+
+<title>Proyecto Web 1 - Inicio</title>
+</head>
+
+
+<body>
+
+<div id="swipetheme">
+    <div id="toGreen"><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\imggreen-01.jpg" alt=""></div>
+    <div id="toRed"><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\imgred-01.jpg" alt=""></div>
+    <div id="toOrange"><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\imgorange-01.jpg" alt=""></div>
+</div>
+
+<section id="global">  <!--contenedor global de toda la pagina-->
+    <header>    <!--EL HEADER CONTENDRÁ LA IMAGEN DE CABECERA Y LA BARRA DE NAVEGACION-->
+        <h1 id="logo">PROYECTO JS</h1>    <!--CONTENEDOR PARA EL LOGO-->
+
+        <div class="clearfix"></div>
+
+        <nav>                               <!--BARRA DE NAVEGACIÓN-->
+            <ul id="menu">
+                <li><a href="index47.html">INICIO</a></li>
+                <li><a href="Clock.html">RELOJ</a></li>
+                <li><a href="Aboutme.html">SOBRE MÍ</a></li>
+                <li><a href="Contact.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+<div id="slider"> <!--SLIDER-->
+    <div class="slider">
+        <div><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\hojas.jpg" title="Green"></div>
+        <div><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\rojo.jpg" title="Red"></div>
+        <div><img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\marron.jpg" title="Orange"></div>
+    </div>
+</div> 
+
+<section id="content">                       <!--CONTENEDOR DE CONTENIDOS DE PAGINA-->
+    <div id="posts">                         <!--CONTENEDOR DE ARTICULOS PRINCIPALES-->
+    <!--<article class="post">               CONTENEDOR DE ARTICULO                       ESTOS ARTÍCULOS LOS USE DE MOLDE, LUEGO LOS REEMPLACÉ
+            <h2>TITULO DEL ARTICULO</h2>                                                   POR LOS QUE CARGO DESDE EL SCRIPT, POR ESO LOS COMENTO
+            <span class="date">Fecha de publicacion</span>
+            <p id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?</p>
+        </article>
+        <a href="" class="buttonmore">Leer más</a>
+
+        <article class="post">              
+            <h2>TITULO DEL ARTICULO 2</h2>
+            <span class="date">Fecha de publicacion</span>
+            <p id="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?</p>
+        </article>
+        <a href="" class="buttonmore">Leer más</a>-->
+
+        <hr>                    <!--SEPARADORES-->
+        <br>
+        <div>                   <!--CAMPO PARA AGREGAR POSTEOS-->
+            <h3>CREATE NEW POST</h3>
+            <form action="#" id="createpost">
+                <label for="titulo">Título</label>
+                <input type="text" name="titulo" id="titulo">
+                <label for="newcontent">Contenido</label> <br>
+                <textarea name="newpost" id="newcontent" cols="40" rows="10"></textarea> <br>
+                <input type="submit" value="Crear">
+            </form>
+        </div>
+    </div>      
+    
+    
+    
+    <aside id="sidebar">                <!--CONTENEDOR DE SIDEBAR-->
+        <div id="about">
+            <h4><span class="marcosidebar">¿Quien Soy?</span></h4>
+            <img src="C:\Users\Seba Toso\Desktop\Cursos\Desarrollo web\udemy\Ejercicio 47 - Proyecto\material\caracol.jpg">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Delectus saepe, non modi totam aperiam recusandae aliquid earum tempora quos nihil fugit, 
+                nisi accusamus rerum, eaque incidunt sed quam nemo odit?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+        </div>
+        <div id="login">
+            <h4><span class="marcosidebar">Ingresar</span></h4>
+            <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="formName">
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="formMail">
+                <label for="pass">Password</label>
+                <input type="password" name="pass"  id="formPass">
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
+    </asider>        
+</section>
+
+    <div class="clearfix"></div>
+
+
+
+</section>
+
+<footer>
+    Proyecto completo de Master de JavaScript usando Jquery y Jquery UI &copy;
+
+    <a class="scrollup" href="#">Subir</a>
+</footer>
+
+</body>
+</html>

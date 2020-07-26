@@ -1,0 +1,28 @@
+body{
+    background: url("../material/rojo.jpg");
+    background-attachment: fixed;   /* ESTO ES PARA QUE NO SE MUEVA CON EL SCROLL*/
+}
+#logo{
+    background: #b22020;
+    color: white;
+}
+nav ul li:hover{                /*EFECTO DEL LI CUANDO PASO EL MOUSE POR ENCIMA*/
+    background: rgb(178, 32, 32);
+}
+.buttonmore {
+    background: rgb(178, 32, 32);
+    color: white;
+}
+#acordeon .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid rgb(218, 41, 41);
+    background: rgb(178, 32, 32);
+}
+#clock {
+    border:5px dotted rgb(178, 32, 32);
+}
+#ui-datepicker-div .ui-widget-header {
+    border: 1px solid #ddd;
+    background: rgb(178, 32, 32);
+    color: #ddd;
+    font-weight: bold;
+}
