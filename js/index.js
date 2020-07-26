@@ -121,13 +121,13 @@ if(window.location.href.indexOf("Contact") > -1){
 
     var theme =$("#theme")                  //cambio de theme
     $("#toGreen").click(function(){
-        theme.attr("href", "css/stylesgreen.css")
+        theme.attr("href", "../css/stylesgreen.css")
     });           
     $("#toRed").click(function(){
-        theme.attr("href", "css/stylesred.css")
+        theme.attr("href", "../css/stylesred.css")
     });
     $("#toOrange").click(function(){
-        theme.attr("href", "css/stylesorange.css")
+        theme.attr("href", "../css/stylesorange.css")
     });
 
 

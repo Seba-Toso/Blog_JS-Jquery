@@ -16,12 +16,17 @@
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <!--SLIDER-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!--esto es jquery cargado por otro lado (opcional)-->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 <!--MOMENT JS-->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es-us.min.js"></script>    <!--traduccion al español-->
 
+<script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+</script>
 
 
 
